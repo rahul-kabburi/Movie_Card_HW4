@@ -1,11 +1,10 @@
 import React from 'react'
 import Ott from './Ott.jsx'
-import data from './data.jsx'
+import data from './Data.jsx'
 
 function App() {
-  let Data = data()
   return (
-    <Ott data={Data} />
+    <Ott data={data} />
   )
 }
 
